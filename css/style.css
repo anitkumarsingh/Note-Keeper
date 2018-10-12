@@ -218,6 +218,7 @@
      -moz-osx-font-smoothing: grayscale;
     
 }
+/* =============icon content=========== */
  .icon-brush:before {
      content: '\e800';
 }
@@ -290,10 +291,7 @@
      background-color: #e8e8e8;
 
 }
- body.anonymous .main .wrapper {
-    /* display: none;
-     */
-}
+
  body.anonymous .login {
      display: -webkit-box;
      display: -webkit-flex;
