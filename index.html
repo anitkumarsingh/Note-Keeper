@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+  <title> Replicated Google Keep -By Anit Kumar </title>
+  <meta name='description' content="" />
+  <meta name="keywords" content=" Google keep by Anit Kumar" />
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+  <!-- Importing css files-->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/style2.css" />
+  <style>
+  </style>
+</head>
+
+<body class="anonymous">
+  <div class="main-wrapper">
+    <header class="header">
+      <div class="header-left">
+        <!-- <i class="fas fa-bars header__menu-btn"></i> -->
+        <!-- =====Hamburger menu===== -->
+        <div class="hamburger" id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <!-- ======Text as a logo===== -->
+        <p class="header__head">Google Keep</p>
+      </div>
+
+     <!--Search Box start--> 
+     <div class="searchBox-container">
+        <form class="searchBox-forms aSVJYc-G0jgYd-ZMv3u" method="get">
+            <button class="searchBox-close" aria-label="Close search" type="button">
+                <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path>
+                </svg>
+            </button>
+            <div class="searchBox-input-holder">
+                <input class="search-inputBox" aria-label="Search" autocomplete="off" placeholder="Search" value="" name="q" role="combobox" type="text">
+            </div>
+            <button class="clean_search" aria-label="Clear search" type="button" style="visibility: hidden;">
+                <svg focusable="false" height="24px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </button>
+            <button class="clean_search_go" aria-label="Search" role="button">
+                <svg focusable="false" height="40px" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    <path d="M0 0h24v24H0z" fill="none"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+     <!--  -search box end- -->
+
+     <!-- Right section of header notification, profile start-->
+      <div class="header-right">
+        <div class="header-main-style">
+          <img class="icon-align-justify header-main-style__item one-in-column" src="./img/Screenshot_2018-10-12 Google Keep(1).png" width="55%" height="auto" style="position: relative;
+          left: -50px;"/>
+          <img class="icon-th header-main-style__item three-in-column" src="./img/Screenshot_2018-10-12 Google Keep(2).png" width="55%" height="auto"/ style="position: relative;
+          left: -50px;">
+          <img class="icon-th-large header-main-style__item two-in-column" src="./img/Screenshot_2018-10-12 Google Keep(3).png" width="55%" height="auto" style="position: relative;
+          left: -50px;"/>
+        </div>
+        <!-- Right section of header user profile start-->
+        <div class="header-person">
+          <img src="img/avatar.jpg" class="header-person__photo">
+          <div class="header-person-div">
+            <img src="img/avatar.jpg" class="header-person__photo_big">
+            <div class="header-person-div__right">
+              <span class="header-person__name">Anit Kumar</span>
+              <span class="header-person__email">anikumarsingh99@gmail.com</span>
+              <span class="header-person__auth">Verified</span>
+            </div>
+          </div>
+        </div>
+        <!-- Right section of header user profile ends-->
+      </div>
+    </header>
+    <!-- Right section of header notification, profile end-->
+
+    <!-- Sidebar -->
+    <nav>
+      <div class="links" >
+        <div class="link_outer_container">
+          <div class="link_outer_container2">
+              <ul class="link_lists" id="listID$:0"><span class="list_roup"></span>
+                  <li class="note_list_cont note_list_container1 note_list_container2" role="menuitem" id="gbm:1">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="M9 21c0 .55.45 1 1 1h4c.55 0 1-.45 1-1v-1H9v1zm3-19C8.13 2 5 5.13 5 9c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2.26c1.81-1.27 3-3.36 3-5.74 0-3.87-3.13-7-7-7z"></path>
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                          </svg><span class="labels_name">Notes</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:2">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                              <path d="m20.78 13.16l-6.05-3.02c-0.23-0.09-0.47-0.14-0.73-0.14h-1v-2h1.75c1.66 0 3-1.34 3-3s-1.34-3-3-3c-0.75 0-1.14 0.22-1.75 0.75v-0.75c0-1.1-0.9-2-2-2s-2 0.9-2 2v0.75c-0.61-0.53-1-0.75-1.75-0.75-1.66 0-3 1.34-3 3s1.34 3 3 3h1.75v8.31l-4.57-0.95c-0.1-0.02-0.21-0.03-0.32-0.03-0.41 0-0.79 0.17-1.06 0.44l-1.05 1.06 6.59 6.59c0.36 0.36 0.86 0.58 1.41 0.58h9.06c1 0 1.77-0.74 1.92-1.7l1-7.03c0.01-0.09 0.02-0.18 0.02-0.27 0-0.83-0.5-1.54-1.22-1.84zm-11.53-6.16h-2c-1.1 0-2-0.9-2-2s0.9-2 2-2 2 0.9 2 2v2zm3.5-2c0-1.1 0.9-2 2-2s2 0.9 2 2-0.9 2-2 2h-2v-2z"></path>
+                          </svg><span class="labels_name">Reminders</span></a>
+                  </li>
+              </ul>
+              <ul class="link_lists new_label_linkss" id="gb$:3"><span class="list_roup"></span>
+                  <div class="labels_container">Labels</div>
+                  <div role="button" class="labels_container_btn1 labels_container_btn2 labels_container_btn3 labels_container_btn4 labels_container_btn5" tabindex="0" style="user-select: none; left: 192px;">Edit</div>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:11">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m19 13h-6v6h-2v-6h-6v-2h6v-6h2v6h6v2z"></path>
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                          </svg><span class="labels_name">Create new label</span></a>
+                  </li>
+              </ul>
+              <ul class="link_lists" id="gb$:5"><span class="list_roup"></span>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:6">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m20.54 5.23l-1.39-1.68c-0.27-0.34-0.68-0.55-1.15-0.55h-12c-0.47 0-0.88 0.21-1.16 0.55l-1.38 1.68c-0.29 0.34-0.46 0.79-0.46 1.27v12.5c0 1.1 0.9 2 2 2h14c1.1 0 2-0.9 2-2v-12.5c0-0.48-0.17-0.93-0.46-1.27zm-8.54 12.27l-5.5-5.5h3.5v-2h4v2h3.5l-5.5 5.5zm-6.88-12.5l0.81-1h12l0.94 1h-13.75z"></path>
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                          </svg><span class="labels_name">Archive</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:7">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m6 19c0 1.1 0.9 2 2 2h8c1.1 0 2-0.9 2-2v-12h-12v12zm13-15h-3.5l-1-1h-5l-1 1h-3.5v2h14v-2z"></path>
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                          </svg><span class="labels_name">Bin</span></a>
+                  </li>
+              </ul>
+              <ul class="link_lists" id="gb$:8"><span class="list_roup"></span>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:9">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                              <path d="m19.43 12.98c0.04-0.32 0.07-0.64 0.07-0.98s-0.03-0.66-0.07-0.98l2.11-1.65c0.19-0.15 0.24-0.42 0.12-0.64l-2-3.46c-0.12-0.22-0.39-0.3-0.61-0.22l-2.49 1c-0.52-0.4-1.08-0.73-1.69-0.98l-0.38-2.65c-0.03-0.24-0.24-0.42-0.49-0.42h-4c-0.25 0-0.46 0.18-0.49 0.42l-0.38 2.65c-0.61 0.25-1.17 0.59-1.69 0.98l-2.49-1c-0.23-0.09-0.49 0-0.61 0.22l-2 3.46c-0.13 0.22-0.07 0.49 0.12 0.64l2.11 1.65c-0.04 0.32-0.07 0.65-0.07 0.98s0.03 0.66 0.07 0.98l-2.11 1.65c-0.19 0.15-0.24 0.42-0.12 0.64l2 3.46c0.12 0.22 0.39 0.3 0.61 0.22l2.49-1c0.52 0.4 1.08 0.73 1.69 0.98l0.38 2.65c0.03 0.24 0.24 0.42 0.49 0.42h4c0.25 0 0.46-0.18 0.49-0.42l0.38-2.65c0.61-0.25 1.17-0.59 1.69-0.98l2.49 1c0.23 0.09 0.49 0 0.61-0.22l2-3.46c0.12-0.22 0.07-0.49-0.12-0.64l-2.11-1.65zm-7.43 2.52c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"></path>
+                          </svg><span class="labels_name">Settings</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:a">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z"></path>
+                          </svg><span class="labels_name">Send feedback</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:b">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="M0 0h24v24H0z" fill="none"></path>
+                              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z"></path>
+                          </svg><span class="labels_name">Help</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:c">
+                      <a class="notea_links" tabindex="0">
+                          <svg width="24px" xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 24 24" height="24px" class="gb_Ac">
+                              <path d="m0 0h24v24h-24z" fill="none"></path>
+                              <path d="m3 6h18v-2h-18c-1.1 0-2 0.9-2 2v12c0 1.1 0.9 2 2 2h4v-2h-4v-12zm10 6h-4v1.78c-0.61 0.55-1 1.33-1 2.22s0.39 1.67 1 2.22v1.78h4v-1.78c0.61-0.55 1-1.34 1-2.22s-0.39-1.67-1-2.22v-1.78zm-2 5.5c-0.83 0-1.5-0.67-1.5-1.5s0.67-1.5 1.5-1.5 1.5 0.67 1.5 1.5-0.67 1.5-1.5 1.5zm11-9.5h-6c-0.5 0-1 0.5-1 1v10c0 0.5 0.5 1 1 1h6c0.5 0 1-0.5 1-1v-10c0-0.5-0.5-1-1-1zm-1 10h-4v-8h4v8z"></path>
+                          </svg><span class="labels_name">App downloads</span></a>
+                  </li>
+                  <li class="note_list_cont note_list_container1" role="menuitem" id="gbm:d">
+                      <a class="notea_links" tabindex="0">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" fill="#000000" class="gb_Ac">
+                              <path d="M40 10H8c-2.21 0-3.98 1.79-3.98 4L4 34c0 2.21 1.79 4 4 4h32c2.21 0 4-1.79 4-4V14c0-2.21-1.79-4-4-4zm-18 6h4v4h-4v-4zm0 6h4v4h-4v-4zm-6-6h4v4h-4v-4zm0 6h4v4h-4v-4zm-2 4h-4v-4h4v4zm0-6h-4v-4h4v4zm18 14H16v-4h16v4zm0-8h-4v-4h4v4zm0-6h-4v-4h4v4zm6 6h-4v-4h4v4zm0-6h-4v-4h4v4z"></path>
+                              <path d="M0 0h48v48H0zm0 0h48v48H0z" fill="none"></path>
+                          </svg><span class="labels_name">Keyboard shortcuts</span></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </div>
+      <footer>
+        <p>&copy; 2018 Build By Anit Kumar</p>
+      </footer>
+    </nav>
+    <!-- sidebar end-->
+    <div class="main">
+      <div class="wrapper">
+        <div class="new-note" >
+          <input type="text" class="new-note__head" placeholder="Title" id="panel1">
+          <textarea class="new-note__text" placeholder="Take a note" onclick="myFunction()"></textarea>
+          <img class="new-note_pen" src="./img/pen.svg" width="5%" height="auto">
+          <div class="new-note__bottom" id="panel2">
+            <div class="new-note-color">
+              <!-- <i class="icon-brush new-note-color__btn"></i> -->
+              <img class="icon-brush new-note-color__btn" src="./img/color.svg" width="100%" height="100%"/>
+              <div class="new-note-color__div">
+                <div class="new-note-color__item" data-note-color="#ffffff"></div>
+                <div class="new-note-color__item" data-note-color="#cecece"></div>
+                <div class="new-note-color__item" data-note-color="#c4b6b6"></div>
+                <div class="new-note-color__item" data-note-color="#e59292"></div>
+                <div class="new-note-color__item" data-note-color="#edb674"></div>
+                <div class="new-note-color__item" data-note-color="#f2f07b"></div>
+                <div class="new-note-color__item" data-note-color="#b2fca4"></div>
+                <div class="new-note-color__item" data-note-color="#96cff7"></div>
+                <div class="new-note-color__item" data-note-color="#d7adff"></div>
+              </div>
+            </div>
+            <div class="new-note-image">
+                <img class="new-note__image" src="./img/image.svg" width="100%" height="100%"/>
+            </div>
+            <div class="new-note-remainder">
+                <img class="new-note-remainder-image" src="./img/remainder.png" width="80%" height="75%"/>
+            </div>
+            <button class="new-note__btn" onclick="clearfield" id="close-note-window">Close</button>
+          </div>
+        </div>
+        <!-- <div class="favorite-note-list">
+          <h5 class="favorite-note-list__head">Pined</h5>
+        </div> -->
+        <div class="note-list">
+          <h5 class="note-list__main-head">Others</h5>
+        </div>
+        <div class="note-popup">
+          <input type="text" class="note-popup__head" placeholder="Title">
+          <textarea class="note-popup__text" placeholder="Take a note"></textarea>
+          <div class="note-popup__bottom">
+            <div class="note-popup-color">
+              <i class="icon-brush note-popup-color__btn"></i>
+              <div class="note-popup-color__div">
+                <div class="note-popup-color__item" data-note-color="#ffffff"></div>
+                <div class="note-popup-color__item" data-note-color="#cecece"></div>
+                <div class="note-popup-color__item" data-note-color="#c4b6b6"></div>
+                <div class="note-popup-color__item" data-note-color="#e59292"></div>
+                <div class="note-popup-color__item" data-note-color="#edb674"></div>
+                <div class="note-popup-color__item" data-note-color="#f2f07b"></div>
+                <div class="note-popup-color__item" data-note-color="#b2fca4"></div>
+                <div class="note-popup-color__item" data-note-color="#96cff7"></div>
+                <div class="note-popup-color__item" data-note-color="#d7adff"></div>
+              </div>
+            </div>
+            <button class="note-popup__btn">Сhange color</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <script src="js/myScript1.js"></script>
+  <script>
+    var hamburger = document.getElementById('hamburger');
+        hamburger.addEventListener("click", toggleSidenav); 
+        function toggleSidenav() {
+        document.body.classList.toggle('sidenav-active');
+        }    
+     </script>
+</body>
+</html>
