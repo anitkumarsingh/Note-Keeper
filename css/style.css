@@ -1385,9 +1385,7 @@ ul, menu, dir {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
-.gb_mc:not(.gb_Ua) .note_list_cont, .gb_mc:not(.gb_Ua) .list_roup {
-  padding-left: 24px;
-}
+
 .list_roup:empty {
   display: none;
 }
@@ -1409,9 +1407,7 @@ ul, menu, dir {
   font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   color: rgba(0,0,0,0.87);
 }
-.gb_mc:not(.gb_Ua) .note_list_cont, .gb_mc:not(.gb_Ua) .list_roup {
-  padding-left: 24px;
-}
+
 .note_list_cont, .list_roup {
   display: block;
   min-height: 40px;
@@ -1433,9 +1429,7 @@ li {
   display: inline-block;
   width: 100%;
 }
-.gb_Ta a, .gb_mc a {
-  color: inherit;
-}
+
 .note_list_cont .gb_Ac {
   height: 24px;
   width: 24px;
@@ -1443,13 +1437,10 @@ li {
   margin-top: 8px;
   vertical-align: middle;
 }
-.gb_Ta svg, .gb_mc svg {
-  color: black;
-  opacity: .54;
-}
-.gb_Ta svg {
+
+/* .gb_Ta svg {
   fill: currentColor;
-}
+} */
 svg[Attributes ] {
   width: 24px;
   fill: rgb(0, 0, 0);
@@ -1508,4 +1499,9 @@ ul, menu, dir {
 .new-note__image{
     position: relative;
     left: -120px;
+}
+.new-note-archive{
+    position: relative;
+    width: 50px;
+    height: auto;
 }
