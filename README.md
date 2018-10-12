@@ -17,7 +17,7 @@ A replicated Google Keep build using pure html,css and javascript,used to keep i
 
 --
 ## Install
-There is no special set required for this project to run.Just need browser and you are ready to rock!!
+There is no special setup required for this project to run.Just need browser and you are ready to rock!!
 Open index.html in any modern browser like chrome, firefox etc.
 
 ---
