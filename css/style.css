@@ -1426,6 +1426,7 @@ li {
   text-decoration: none;
   display: inline-block;
   width: 100%;
+  padding-left: 10px;
 }
 
 .note_list_cont .gb_Ac {
