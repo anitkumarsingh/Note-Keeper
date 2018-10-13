@@ -1491,3 +1491,6 @@ ul, menu, dir {
     position: relative;
     left: -120px;
 }
+.labels_container{
+    padding-left: 10px;
+}
