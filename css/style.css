@@ -1494,3 +1494,25 @@ ul, menu, dir {
 .labels_container{
     padding-left: 10px;
 }
+.footer-text{
+    border-top: 1px solid #ddd;
+    margin-top: -5px;
+}
+
+@media screen and (max-width:750px){
+    .new-note-remainder{
+        position: relative;
+    }
+    .new-note-remainder-image {
+        position: relative;
+        left: auto!important;
+        top: 3px;
+    }
+    .new-note-image{
+        position: relative;
+    }
+    .new-note__image {
+        position: relative;
+        left: auto!important;
+    }
+}
