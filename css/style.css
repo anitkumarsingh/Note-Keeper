@@ -1367,12 +1367,6 @@ section:nth-child(3) {
 .link_lists:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
-.link_lists {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 8px 0;
-}
 
 ul, menu, dir {
   display: block;
