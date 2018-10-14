@@ -1314,14 +1314,14 @@ nav, .hamburger, .cover {
 }
 .sidenav-active nav, .sidenav-active .hamburger, .sidenav-active .cover {
   -webkit-transform: translateX(225px);
-          transform: translateX(225px);
+          transform: translateX(225px); 
 }
 
 .main {
   transition: margin-left .3s;
   height: 100%;
   background: url('../img/download.svg')no-repeat center center,url('../img/developer.png') center bottom no-repeat ;
-  background-size: 19%;  
+  background-size: 19%, 40%;  
 }
 .sidenav-active .main {
   margin-left: 225px;
@@ -1450,6 +1450,9 @@ svg:not(:root), symbol, image, marker, pattern, foreignObject {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.labels_name{
+    text-align: -webkit-left;
 }
 .link_lists:not(:last-child) {
   border-bottom: 1px solid #ddd;
